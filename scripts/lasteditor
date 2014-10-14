@@ -3,7 +3,7 @@
 
 lasteditor = (x) ->
 	x + "is the last editor"
-console.log lasteditor("Sri") # Replace this x with your name, email, etc
+console.log lasteditor("x") # Replace x or old name with your name, email, etc
 
 module.exports = (robot) ->
 	robot.respond /lasteditor/ ->
