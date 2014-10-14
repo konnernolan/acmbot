@@ -1,0 +1,11 @@
+# Displays last editor
+# If you are reading this, this file has not been tested
+
+lasteditor = (x) ->
+	x + "is the last editor"
+console.log lasteditor("Sri") # Replace this x with your name, email, etc
+
+module.exports = (robot) ->
+	robot.respond /lasteditor/ ->
+	x + "is the last editor"
+	
