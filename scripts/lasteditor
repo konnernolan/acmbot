@@ -1,6 +1,6 @@
 # Displays last editor
-x = "Sri"
-lasteditor = (x) ->
+
+lasteditor = (x = "Sri") ->
 	x + " is the last editor"
 
 module.exports = (robot) ->
